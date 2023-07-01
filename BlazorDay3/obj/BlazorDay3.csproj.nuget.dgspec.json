@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\BlazorDay3\\BlazorDay3.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\BlazorDay3\\BlazorDay3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\BlazorDay3\\BlazorDay3.csproj",
+        "projectName": "BlazorDay3",
+        "projectPath": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\BlazorDay3\\BlazorDay3.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\BlazorDay3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.BL\\Campany.BL.csproj": {
+                "projectPath": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.BL\\Campany.BL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.BL\\Campany.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.BL\\Campany.BL.csproj",
+        "projectName": "Campany.BL",
+        "projectPath": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.BL\\Campany.BL.csproj",
+        "packagesPath": "C:\\Users\\ascom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ascom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.DAL\\Campany.DAL.csproj": {
+                "projectPath": "C:\\Users\\ascom\\Downloads\\ITI Blazor\\BlazorDay3\\WebApi_Day2\\WebApi_Day2\\Campany.DAL\\Campany.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            },
+            "microsoft.aspnetcore.identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "microsoft.identitymodel.tokens": {
+              "target": "Package",
+              "version": "[6.30.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
